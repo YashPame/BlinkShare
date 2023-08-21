@@ -28,7 +28,7 @@ if 'bucketName' not in st.session_state:
 
 if 'errorMessage' not in st.session_state: st.session_state.errorMessage = ""
 
-if 'SendOrReceive' not in st.session_state: st.session_state.SendOrReceive = "ReceivedFile_ShowCode"
+if 'SendOrReceive' not in st.session_state: st.session_state.SendOrReceive = None
 
 if 'FinalSendButton' not in st.session_state: st.session_state.FinalSendButton = None
 if 'FinalReceiveButton' not in st.session_state: st.session_state.FinalReceiveButton = None
