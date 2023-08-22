@@ -5,6 +5,7 @@ import random
 import string
 import MarkdownText as md
 
+st.set_page_config(page_title="BlinkShare", page_icon="⏩")
 def getRandomString(length=6):
     return ''.join(random.choice(string.ascii_lowercase) for i in range(length))
 
@@ -179,6 +180,7 @@ elif st.session_state.SendOrReceive == "ReceivedFile_ShowCode":
         st.markdown(md.ReceiveFileText_05, unsafe_allow_html=True)
         st.markdown(md.DownloadButtonTag.format(st.session_state.FileLink), unsafe_allow_html=True)
         st.markdown(md.ReceiveFileText_06.format(st.session_state.receivedFileNames), unsafe_allow_html=True)
+        st.session_state.receiveCode = None
 
     except Exception as e:
         st.session_state.errorMessage = "Error: " + str(e)

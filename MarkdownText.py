@@ -87,7 +87,7 @@ Footer = """
                 Note:
             </span>
             This Website Currently uses an open source server to send and receive files.
-            So, the files you send and receive are not encrypted and can be seen by anyone during time of of transfer.
+            So, the files you send and receive are not encrypted and can be seen by anyone during time of transfer or later.
             We are working on a better solution to this problem.
             Also this website is created for educational purposes only and not for professional use.
             We are not responsible for any misuse of this website.
